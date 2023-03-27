@@ -1,0 +1,22 @@
+.contact-section {
+    width: 80%;
+    margin: 72px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__map {
+        width: 450px;
+    }
+}
+
+.text-section {
+    width: 400px;
+
+    & &__header {
+        letter-spacing: 5px;
+        color: #888;
+        margin: 8px 0;
+    }
+}

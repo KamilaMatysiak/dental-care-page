@@ -1,0 +1,40 @@
+.price {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 72px;
+
+    & &__header {
+        color: #333;
+        font-size: 24px;
+        margin: 16px 0;
+    }
+
+    & &__title {
+        background: #333;
+        color: #fff;
+        padding: 16px;
+        font-size: 20px;
+    }
+
+    & &__row {
+        color: #333;
+        background: #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:nth-child(2n) {
+            background: #eee;
+        }
+    }
+
+    & &__name {
+        font-size: 14px;
+        padding: 16px;
+    }
+
+    & &__price {
+        font-size: 16px;
+        padding: 12px;
+    }
+}

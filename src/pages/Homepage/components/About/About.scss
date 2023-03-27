@@ -1,0 +1,23 @@
+.about-section {
+    width: 80%;
+    margin: 72px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & &__img {
+        width: 350px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    }
+}
+
+.text-section {
+    width: 400px;
+
+    & &__header {
+        letter-spacing: 5px;
+        color: #888;
+        margin: 8px 0;
+    }
+}

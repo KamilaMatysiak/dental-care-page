@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 32px auto;
+}
+
+.banner-text {
+
+    & &__slogan {
+        max-width: 400px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 65px;
+    }
+
+    & &__desc {
+        max-width: 225px;
+        font-size: 14px;
+        color: #888;
+        margin: 32px 0;
+    }
+}

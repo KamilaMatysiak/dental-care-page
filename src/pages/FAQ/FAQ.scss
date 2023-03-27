@@ -1,0 +1,24 @@
+.faq-page {
+    width: 70%;
+    margin: 72px auto;
+
+    & &__header {
+        color: #333;
+        font-size: 24px;
+        margin: 32px 0;
+    }
+
+    & &__questions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    .faq-page {
+        & &__questions {
+            display: block;
+        }
+    }
+}
